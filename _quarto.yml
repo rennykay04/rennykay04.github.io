@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: .
+
+website:
+  title: "Renny"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: Publikasi.qmd
+        text: publikasi
+        
+      
+
+#bibliography: reference.bib
+#nocite: |
+#  @*
+  
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
